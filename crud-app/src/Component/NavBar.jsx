@@ -20,7 +20,6 @@ const NavBar = () => {
             <Toolbar>
                 <NavLink className={classes.tabs} to="all" exact>All Users</NavLink>
                 <NavLink className={classes.tabs} to="add" exact>Add User</NavLink>
-                <NavLink className={classes.tabs} to="search" exact>Search User</NavLink>
             </Toolbar>
         </AppBar>
     )
